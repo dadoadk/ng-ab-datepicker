@@ -28,7 +28,7 @@
     ".md"
   ],
   "dependencies": {
-    "ab-datepicker": "https://github.com/eureka2/ab-datepicker",
+    "ab-datepicker": "eureka2/ab-datepicker",
     "angular": "^1.6.7",
     "bootstrap": "^3.3.7"
   }
