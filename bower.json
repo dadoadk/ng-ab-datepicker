@@ -23,7 +23,9 @@
     "node_modules",
     "bower_components",
     "test",
-    "tests"
+    "tests",
+    ".PNG",
+    ".md"
   ],
   "dependencies": {
     "ab-datepicker": "https://github.com/eureka2/ab-datepicker",
