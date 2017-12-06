@@ -1,0 +1,11 @@
+{
+  "name": "ab-datepicker",
+  "_cacheHeaders": {
+    "Content-Type": "text/html; charset=utf-8"
+  },
+  "main": "index",
+  "_source": "https://github.com/eureka2/ab-datepicker",
+  "_target": "*",
+  "_originalSource": "https://github.com/eureka2/ab-datepicker",
+  "_direct": true
+}

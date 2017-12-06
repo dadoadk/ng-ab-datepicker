@@ -1,0 +1,32 @@
+{
+  "name": "ng-ab-datepicker",
+  "version": "0.0.1",
+  "description": "Best accessibility enabled datepicker for AngularJS and Bootstrap directive",
+  "main": "ng-ab-datepicker.js",
+  "keywords": [
+    "accessibility",
+    "a11y",
+    "508",
+    "compliance",
+    "508",
+    "datepicker",
+    "angularjs",
+    "bootstrap"
+  ],
+  "authors": [
+    "Dadoadk"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "ab-datepicker": "https://github.com/eureka2/ab-datepicker",
+    "angular": "^1.6.7",
+    "bootstrap": "^3.3.7"
+  }
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html ng-app="myTestApp">
+    <head>
+        
+
+        <script src="bower_components/jquery/dist/jquery.js"></script>
+        <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+        <link href="bower_components/bootstrap/dist/css/bootstrap.css" rel="stylesheet" />
+
+        <script src="bower_components/angular/angular.js"></script>
+
+        <script src="bower_components/ab-datepicker/js/datepicker.js"></script>
+        <link href="bower_components/ab-datepicker/css/datepicker.css" rel="stylesheet" />
+
+        <script src="ng-ab-datepicker.js"></script>
+        <script src="app.js"></script>
+        
+    </head>
+    <body>
+        <div class="container">
+            <div class="row" ng-form="filterForm">
+                <div class="col-lg-3 col-md-3 col-sm-3">
+                    <div class="form-group" ng-class="{'has-error':(filterForm.FromDate.$touched && filterForm.FromDate.$invalid) || (filterForm.FromDate.$modelValue == '') || (filterForm.FromDate.$modelValue == null && !filterForm.FromDate.$pristine), 'has-success':filterForm.FromDate.$valid}">
+                        <label for="FromDate"> Start Date</label>                                            
+                        <p class="input-group">
+                            <input type="text" class="date form-control" id="FromDate" name="FromDate"
+                                    placeholder="MM-dd-yyyy" 
+                                    output-format="MM-dd-yyyy"
+                                    aria-invalid="{{(filterForm.FromDate.$touched && filterForm.FromDate.$invalid) || (filterForm.FromDate.$modelValue == '') || (filterForm.FromDate.$modelValue == null && !filterForm.FromDate.$pristine)}}"
+                                    aria-describedBy="startDateErrorLbl"
+                                    ab-date-picker 
+                                    ng-model="filter.fromDate"  />                                                
+                        </p>
+                        <span id="startDateErrorLbl" ng-if="(filterForm.FromDate.$touched && filterForm.FromDate.$invalid) || (filterForm.FromDate.$modelValue == '') || (filterForm.FromDate.$modelValue == null && !filterForm.FromDate.$pristine)" class="text-danger"> <i class="fa fa-warning" aria-hidden="true"></i> Date is invalid</span>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <pre>{{filter | json}}</pre>
+                </div>
+            </div>
+        </div>        
+    </body>
+</html>
