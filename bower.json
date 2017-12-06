@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "description": "Best accessibility enabled datepicker for AngularJS and Bootstrap directive",
   "main": "ng-ab-datepicker.js",
+  "private":false,
   "keywords": [
     "accessibility",
     "a11y",
