@@ -24,8 +24,8 @@
     "bower_components",
     "test",
     "tests",
-    ".PNG",
-    ".md"
+    "*.PNG",
+    "*.md"
   ],
   "dependencies": {
     "ab-datepicker": "eureka2/ab-datepicker",
