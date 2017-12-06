@@ -59,6 +59,7 @@ It is necessary to have the <label> element with "for=" attribute, so is the "id
 ### Configuration:
 
 Additionally you can set the theme:
+
 ![Screenshot](https://github.com/dadoadk/ng-ab-datepicker/blob/master/abdatepicker.PNG?raw=true "Screenshot")
 
 
