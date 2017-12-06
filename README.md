@@ -5,7 +5,7 @@ A datepicker for AngularJS styled to fit the Twitter Bootstrap standard design a
 
 Screenshot:
 
-![Screenshot](/abdatepicker1.png?raw=true "Screenshot")
+![Screenshot](https://github.com/dadoadk/ng-ab-datepicker/blob/master/abdatepicker1.PNG?raw=true "Screenshot")
 
 
 ### Description:
@@ -54,11 +54,11 @@ Add "ngAbDatepicker" to your modules list. Then you can use it like AngularJS in
 ```
 
 Additionally you can set the theme:
-![Screenshot](/abdatepicker.png?raw=true "Screenshot")
+![Screenshot](https://github.com/dadoadk/ng-ab-datepicker/blob/master/abdatepicker.PNG?raw=true "Screenshot")
 
 
 Also you can set the datepicker as modal, which makes the focus stay within the element untill date is selected or canceled:
-![Screenshot](/abdatepicker0.png?raw=true "Screenshot")
+![Screenshot](https://github.com/dadoadk/ng-ab-datepicker/blob/master/abdatepicker0.PNG?raw=true "Screenshot")
 
 
 ## Copyright and license
